@@ -1,0 +1,77 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.main {
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.63), rgba(0, 0, 0, 0.726)),
+    url(./images/Add-Remove-Photos.png);
+  background-size: 100% 100%;
+}
+.container {
+  margin: 0 auto;
+  padding: 20px;
+  border-radius: 5px;
+  height: calc(100vh - 20vh);
+  background-image: linear-gradient(
+    rgba(255, 0, 0, 0.589),
+    rgba(0, 128, 0, 0.548)
+  );
+  width: calc(100% - 30%);
+}
+.text-header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.input-container input {
+  padding: 7px 25px;
+  border-radius: 3px;
+  border: 0;
+  outline: 0;
+  margin-bottom: 10px;
+  color: green;
+  font-weight: 600;
+}
+.input-container input::placeholder {
+  color: rgba(23, 63, 23, 0.911);
+  font-weight: 600;
+}
+.btn button {
+  padding: 7px 25px;
+  border-radius: 3px;
+  border: 0;
+  outline: 0;
+  cursor: pointer;
+  color: rgba(23, 63, 23, 0.911);
+  font-weight: 600;
+}
+.items-container {
+  margin-top: 20px;
+  color: rgb(26, 95, 26);
+  display: flex;
+  justify-content: start;
+  flex-wrap: wrap;
+}
+.items-container small {
+  padding: 7px 0;
+  padding-left: 12px;
+  background-color: aliceblue;
+  margin: 5px;
+  border-radius: 3px;
+  font-weight: 600;
+}
+.items-container small sup {
+  background-color: brown;
+  padding: 2px 5px;
+  margin-right: 5px;
+  border-radius: 50%;
+  color: aliceblue;
+  font-size: 7px;
+  font-weight: 900;
+}
